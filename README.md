@@ -62,7 +62,7 @@ I utilized Hugging Face [**AutoModelForSequenceClassification**](https://hugging
 ## Analysis
 * The experimentation primarily succeeded in enhancing the test macro average F1-score from **0.71 to 0.77** for level 3 categories.
 * While the classification results across various variants did not exhibit substantial differences, but observed improved scores when classifying *'Premise' and 'Conclusion'* arguments compared to using only *'Premise'* as input. Also suggesting that the inclusion of *'Stance'* (S) does not significantly impact performance in this context.
-* The rsults on test set are in Table 1.
+* The results on test set are in Table 1.
 <p align="center">
     <img src="images/metrics.png", style="width: 400px; height: 200px;"/></center>
 </p>
